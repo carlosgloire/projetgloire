@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'Sen-Regular';
+    src: url('Sen-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #e9e8e8;
+    margin: auto;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Sen-Regular';
+     
+   
+}
+
+/***************HEADER**************************/
+header{
+    padding: 15px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:white;
+     box-shadow: 0px 0px 3px 0px #fc8100;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    transition: top 0.5s;
+    width: 100%;
+}
+header nav div  div{
+    display: none;
+}
+
+header nav div div button{
+    margin: 2px;
+    padding: 2px;
+    border-radius: 3px;
+    width: 80px;
+    margin-left: 40px;
+    color: white;
+    background-color: #fc8100;
+    font-family: 'Sen-Regular';
+    border: none;
+}
+
+header h2{
+   
+    margin-left: -60px;
+    color: #fc8100;
+}
+header nav{
+   display: flex;
+   padding-top: 5px;  
+}
+header nav  a{
+    padding: 3px;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: large;
+    font-weight:600;
+ 
+}
+
+header nav  a:hover{
+    color: #fc8100;
+}
+header nav div .conn:hover .s_menu{
+    display: grid;
+    
+}
+.home::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    bottom: 10px;
+    transition: 0.3s ease-in-out;
+    
+}
+.home:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 50px;
+    height: 3px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+.product::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    bottom: 10px;
+    transition: 0.3s ease-in-out;
+    
+}
+.product:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 75px;
+    height: 3px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+.rproduct::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    bottom: 10px;
+    transition: 0.3s ease-in-out;
+    
+}
+.rproduct:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 135px;
+    height: 3px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+.cart::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    bottom: 10px;
+    transition: 0.3s ease-in-out;
+    
+}
+.cart:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 35px;
+    height: 3px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+.abtus::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    bottom: 10px;
+    transition: 0.3s ease-in-out;
+    
+}
+.abtus:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 75px;
+    height: 3px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+.contact::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    bottom: 10px;
+    transition: 0.3s ease-in-out;
+    
+}
+.contact:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 75px;
+    height: 3px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+/************************************************/
+/**************IMAGE BACKGROUND*******************/
+section{
+    padding-top: 80px;
+    background: url(../images/background.png);
+    object-fit: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+section .search-bar {
+    display: flex;
+    
+}
+section .search-bar input{
+    width: 45%;
+    height: 30px;
+    color: black;
+    border: 2px white solid;
+    padding-left:30px ;
+    padding-right: 15px;
+    font-family: 'Sen-Regular';
+    outline: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    font-size: medium;
+}
+section .search-bar button{
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: #fc8100;
+    border: 1px #fc8100 solid;
+    padding-left:10px ;
+    padding-right: 10px;
+    font-size: medium;
+    font-family: 'Sen-Regular';
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  
+    
+}
+section h1{
+    font-size: 3rem;
+    color: white;
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-bottom: 30px;
+   
+}
+section p{
+    color: white;
+    padding-left: 120px;
+    width: 750px;
+}
+/*********************************************/
+
+/******************PRODUCTS*******************/
+
+.products h2{
+    color: #fc8100;
+    text-align: center;
+    padding: 10px;
+}
+.products .products_list .category{
+    margin-top: 10px;
+    width:100%;
+    overflow: auto;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+.products .products_list h3{
+    color: #fc8100;
+    margin-left: 30px;
+}
+.products aside  p img{
+    margin-top: 10px;
+    width: 100px;
+    height: 110px;
+}
+.products aside {
+    padding: 15px;
+    margin: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px black;
+    border-radius: 10px;
+}
+.products aside div{
+  
+    padding-left: 8px;
+
+}
+.products aside div p{
+   margin-bottom: 15px;
+}
+.products aside div a{
+    background-color: #fc8100;
+    color: white;
+    border-radius: 30px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    text-decoration: none;
+
+}
+
+/*********************************************/
+
+/******************ABOUT US*******************/
+.about_us{
+    background-color: white;
+    height: 80vh;
+    padding-left: 35px;
+    padding-top: 30px;
+    
+}
+.about_us div{
+    display: flex;
+    gap: 150px;
+}
+.about_us h3{
+    color: #fc8100;
+    margin-bottom: 25px;
+    
+}
+.about_us p{
+    width:500px;
+    text-align: justify;
+}
+.about_us p img{
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px;
+}
+
+/*********************************************/
+
+/******************FOOTER*******************/
+footer{
+    padding-top: 20px;
+    padding-bottom: 15px;
+   
+}
+footer aside{
+    margin-bottom: 15px;
+     display: flex;
+    justify-content: space-around;
+}
+footer .contacts h4{
+    margin-bottom: 8px;
+    color: #fc8100;
+}
+
+footer .social_media h4{
+    margin-bottom: 8px;
+    color: #fc8100;
+}
+
+footer .social_media div {
+    display: flex;
+    justify-content: space-between;
+}
+footer .reserved{
+    border-top: 2px solid white;
+    text-align: center;
+    color:#fc8100;
+}

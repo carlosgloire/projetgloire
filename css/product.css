@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Sen-Regular';
+    src: url('Sen-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    margin: auto;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Sen-Regular';
+     
+   
+}
+
+/***************HEADER**************************/
+header{
+    padding: 15px;
+    display: flex;
+    box-shadow: 0px 0px 5px 0px;
+    justify-content:space-evenly;
+    background-color:white;
+    width: 100%;
+    
+}
+header h2{
+   
+    float: left;
+    color: #fc8100;
+}
+header nav{
+   
+   padding-top: 5px;  
+}
+header nav a{
+    padding: 3px;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: large;
+ 
+}
+.home::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    margin-top: 25px;
+    height: 3px;
+    transition: 0.3s ease-in-out;
+    
+}
+.home:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 50px;
+    height: 3px;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+.product::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    margin-top: 25px;
+    height: 3px;
+    margin-top: 25px;
+    transition: 0.3s ease-in-out;
+    
+}
+.product:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 75px;
+    height: 3px;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+
+.rproduct::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    margin-top: 25px;
+    transition: 0.3s ease-in-out;
+    
+}
+.rproduct:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 135px;
+    height: 3px;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+.cart::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    margin-top: 25px;
+    transition: 0.3s ease-in-out;
+    
+}
+.cart:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 35px;
+    height: 3px;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+.abtus::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    margin-top: 25px;
+    transition: 0.3s ease-in-out;
+    
+}
+.abtus:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 75px;
+    height: 3px;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+.contact::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width:0;
+    height: 3px;
+    margin-top: 25px;
+    transition: 0.3s ease-in-out;
+    
+}
+.contact:hover::before{
+    content:" ";
+    position: absolute;
+    background-color: #fc8100;
+    width: 75px;
+    height: 3px;
+    margin-top: 25px;
+    border-radius: 6px;
+}
+/************************************************/
+/******************PRODUCTS*******************/
+
+.products{
+    height: 70vh;
+    
+}
+.products h2{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.products .products_list h3{
+    color: #fc8100;
+}
+.products aside  p img{
+    margin-top: 10px;
+    padding-right: 30px;
+    width: 200px;
+}
+.products aside {
+    padding: 35px;
+    margin: 30px;
+    display: flex;
+   align-items: center;
+   
+}
+
+.products aside div a{
+    background-color: #fc8100;
+    color: white;
+    border-radius: 30px;
+    width: 90px;
+    padding: 6px;
+    border: none;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+/*********************************************/
+/******************FOOTER*******************/
+footer{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #e9e8e8;
+   
+}
+footer aside{
+    margin-bottom: 15px;
+     display: flex;
+    justify-content: space-around;
+}
+footer .contacts h4{
+    margin-bottom: 8px;
+    color: #fc8100;
+}
+
+footer .social_media h4{
+    margin-bottom: 8px;
+    color: #fc8100;
+}
+
+footer .social_media div {
+    display: flex;
+    justify-content: space-between;
+}
+footer .reserved{
+    border-top: 2px solid white;
+    text-align: center;
+    color:#fc8100;
+}
