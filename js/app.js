@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded',function(){
         series: [{
             
                 name:'Jane',
-                data:[10,20,40]
+                data:[5,20,40]
         },{
             name:'John',
             data: [25,32,60]
